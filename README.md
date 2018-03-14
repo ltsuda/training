@@ -1,2 +1,2 @@
-# training
-Training repository
+# Training repository
+Training files from multiple courses
