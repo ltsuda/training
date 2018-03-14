@@ -1,0 +1,496 @@
+1520447435396	geckodriver	INFO	geckodriver 0.19.1
+1520447435404	geckodriver	INFO	Listening on 127.0.0.1:57360
+1520447438502	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ltsuda\\AppData\\Local\\Temp\\rust_mozprofile.xJsE1PUtHeRP"
+1520447439659	Marionette	INFO	Enabled via --marionette
+[Child 10136, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Chil1520447446552	Marionette	INFO	Listening on port 57368
+1520447446952	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520447447019	Marionette	DEBUG	Register listener.js for window 4294967297
+1520447447124	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 123"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:123 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:138 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:52 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:31 < uninit()@resource://activity-stream/lib/Store.jsm:151 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:266 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4509 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2281 < GeckoDriver.prototype.quit()@driver.js:3307 < despatch()@server.js:553 < execute()@server.js:527 < onPacket/<()@server.js:502 < onPacket()@server.js:501 < _onJSONObjectReady/<()@transport.js:501
+1520447599693	geckodriver	INFO	geckodriver 0.19.1
+1520447599701	geckodriver	INFO	Listening on 127.0.0.1:57460
+1520447602796	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ltsuda\\AppData\\Local\\Temp\\rust_mozprofile.a9m0A6JEmDrB"
+1520447603992	Marionette	INFO	Enabled via --marionette
+[Child 2700, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2700, Chrome_ChildThread] WARNING: 1520447609620	Marionette	INFO	Listening on port 57468
+1520447610176	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520447610240	Marionette	DEBUG	Register listener.js for window 4294967297
+1520447610293	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 123"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:123 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:138 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:52 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:31 < uninit()@resource://activity-stream/lib/Store.jsm:151 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:266 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4509 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2281 < GeckoDriver.prototype.quit()@driver.js:3307 < despatch()@server.js:553 < execute()@server.js:527 < onPacket/<()@server.js:502 < onPacket()@server.js:501 < _onJSONObjectReady/<()@transport.js:501
+1520447716344	geckodriver	INFO	geckodriver 0.19.1
+1520447716352	geckodriver	INFO	Listening on 127.0.0.1:57560
+1520447719455	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ltsuda\\AppData\\Local\\Temp\\rust_mozprofile.QGtMTHYF7336"
+1520447720500	Marionette	INFO	Enabled via --marionette
+[GFX1-]: Could not get a DXGI adapter
+[GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+[GFX1-]: Could not get a DXGI adapter
+[Child 8568, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8568, Chrome[GFX1-]: Could not get a DXGI adapter
+1520447725699	Marionette	INFO	Listening on port 57568
+1520447726797	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520447726859	Marionette	DEBUG	Register listener.js for window 4294967297
+1520447726946	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1520447727235	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1520447727235	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1520447728027	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://pypi.python.org/pypi"
+1520447728635	Marionette	DEBUG	Received DOM event "pageshow" for "https://pypi.python.org/pypi"
+1520447793794	geckodriver	INFO	geckodriver 0.19.1
+1520447793802	geckodriver	INFO	Listening on 127.0.0.1:57655
+1520447796936	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ltsuda\\AppData\\Local\\Temp\\rust_mozprofile.4DdL4nIC88Pp"
+1520447798061	Marionette	INFO	Enabled via --marionette
+[GFX1-]: Could not get a DXGI adapter
+[GFX1-]: Could not get a DXGI adapter
+[Child 4780, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4780, Chro[GFX1-]: Could not get a DXGI adapter
+1520447803811	Marionette	INFO	Listening on port 57664
+1520447804277	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520447804339	Marionette	DEBUG	Register listener.js for window 4294967297
+1520447804422	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1520447804673	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1520447804673	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1520447805330	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://pypi.python.org/pypi"
+1520447805762	Marionette	DEBUG	Received DOM event "pageshow" for "https://pypi.python.org/pypi"
+1520447805823	Marionette	DEBUG	Received DOM event "beforeunload" for "https://pypi.python.org/pypi"
+1520447807969	Marionette	DEBUG	Received DOM event "pagehide" for "https://pypi.python.org/pypi"
+1520447807969	Marionette	DEBUG	Received DOM event "unload" for "https://pypi.python.org/pypi"
+1520447808175	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://pypi.python.org/pypi?%3Aaction=search&term=behave&submit=search"
+1520447808211	Marionette	DEBUG	Received DOM event "pageshow" for "https://pypi.python.org/pypi?%3Aaction=search&term=behave&submit=search"
+1520447856475	geckodriver	INFO	geckodriver 0.19.1
+1520447856483	geckodriver	INFO	Listening on 127.0.0.1:57758
+1520447859562	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ltsuda\\AppData\\Local\\Temp\\rust_mozprofile.e8Rtlz08j1oI"
+1520447860713	Marionette	INFO	Enabled via --marionette
+[GFX1-]: Could not get a DXGI adapter
+[GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+[GFX1-]: Could not get a DXGI adapter
+[Child 5516, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5516, Chr[GFX1-]: Could not get a DXGI adapter
+1520447866288	Marionette	INFO	Listening on port 57768
+1520447866925	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520447866985	Marionette	DEBUG	Register listener.js for window 4294967297
+1520447867110	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1520447867525	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1520447867526	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1520447868048	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://pypi.python.org/pypi"
+1520447868617	Marionette	DEBUG	Received DOM event "pageshow" for "https://pypi.python.org/pypi"
+1520447868680	Marionette	DEBUG	Received DOM event "beforeunload" for "https://pypi.python.org/pypi"
+1520447870910	Marionette	DEBUG	Received DOM event "pagehide" for "https://pypi.python.org/pypi"
+1520447870910	Marionette	DEBUG	Received DOM event "unload" for "https://pypi.python.org/pypi"
+1520447871101	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://pypi.python.org/pypi?%3Aaction=search&term=behave&submit=search"
+1520447871156	Marionette	DEBUG	Received DOM event "pageshow" for "https://pypi.python.org/pypi?%3Aaction=search&term=behave&submit=search"
+1520448015200	geckodriver	INFO	geckodriver 0.19.1
+1520448015208	geckodriver	INFO	Listening on 127.0.0.1:57927
+1520448018297	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ltsuda\\AppData\\Local\\Temp\\rust_mozprofile.dJMy43049DfH"
+1520448019285	Marionette	INFO	Enabled via --marionette
+[GFX1-]: Could not get a DXGI adapter
+[GFX1-]: Could not get a DXGI adapter
+[Child 13352, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13352, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GFX1-]: Could not get a DXGI adapter
+1520448024251	Marionette	INFO	Listening on port 57940
+1520448024545	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520448024609	Marionette	DEBUG	Register listener.js for window 4294967297
+1520448024729	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1520448024999	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1520448024999	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1520448027219	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://pypi.python.org/pypi"
+1520448027221	Marionette	DEBUG	Received DOM event "pageshow" for "https://pypi.python.org/pypi"
+1520448027286	Marionette	DEBUG	Received DOM event "beforeunload" for "https://pypi.python.org/pypi"
+1520448028902	Marionette	DEBUG	Received DOM event "pagehide" for "https://pypi.python.org/pypi"
+1520448028902	Marionette	DEBUG	Received DOM event "unload" for "https://pypi.python.org/pypi"
+1520448029141	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://pypi.python.org/pypi?%3Aaction=search&term=behave&submit=search"
+1520448029177	Marionette	DEBUG	Received DOM event "pageshow" for "https://pypi.python.org/pypi?%3Aaction=search&term=behave&submit=search"
+1520448247694	geckodriver	INFO	geckodriver 0.19.1
+1520448247703	geckodriver	INFO	Listening on 127.0.0.1:58216
+1520448250816	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ltsuda\\AppData\\Local\\Temp\\rust_mozprofile.f58eiU8S3xj0"
+1520448251864	Marionette	INFO	Enabled via --marionette
+[Child 12772, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12771520448257289	Marionette	INFO	Listening on port 58224
+1520448258153	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520448258217	Marionette	DEBUG	Register listener.js for window 4294967297
+1520448258318	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1520448258560	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1520448258560	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1520448259485	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://pypi.python.org/pypi"
+1520448259566	Marionette	DEBUG	Received DOM event "pageshow" for "https://pypi.python.org/pypi"
+1520448259630	Marionette	DEBUG	Received DOM event "beforeunload" for "https://pypi.python.org/pypi"
+1520448261417	Marionette	DEBUG	Received DOM event "pagehide" for "https://pypi.python.org/pypi"
+1520448261418	Marionette	DEBUG	Received DOM event "unload" for "https://pypi.python.org/pypi"
+1520448261588	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://pypi.python.org/pypi?%3Aaction=search&term=behave&submit=search"
+1520448261647	Marionette	DEBUG	Received DOM event "pageshow" for "https://pypi.python.org/pypi?%3Aaction=search&term=behave&submit=search"
+1520448274716	geckodriver	INFO	geckodriver 0.19.1
+1520448274724	geckodriver	INFO	Listening on 127.0.0.1:58280
+1520448277823	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ltsuda\\AppData\\Local\\Temp\\rust_mozprofile.nyBrVdGBSNj7"
+1520448279255	Marionette	INFO	Enabled via --marionette
+[GFX1-]: Could not get a DXGI adapter
+[GFX1-]: Could not get a DXGI adapter
+[Child 10844, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10844, Chrome_[GFX1-]: Could not get a DXGI adapter
+1520448284599	Marionette	INFO	Listening on port 58288
+1520448285207	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520448285269	Marionette	DEBUG	Register listener.js for window 4294967297
+1520448285434	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1520448285611	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1520448285612	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1520448286182	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://pypi.python.org/pypi"
+1520448286664	Marionette	DEBUG	Received DOM event "pageshow" for "https://pypi.python.org/pypi"
+1520448286727	Marionette	DEBUG	Received DOM event "beforeunload" for "https://pypi.python.org/pypi"
+1520448289007	Marionette	DEBUG	Received DOM event "pagehide" for "https://pypi.python.org/pypi"
+1520448289008	Marionette	DEBUG	Received DOM event "unload" for "https://pypi.python.org/pypi"
+1520448289394	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://pypi.python.org/pypi?%3Aaction=search&term=behave&submit=search"
+1520448289459	Marionette	DEBUG	Received DOM event "pageshow" for "https://pypi.python.org/pypi?%3Aaction=search&term=behave&submit=search"
+1520448412929	geckodriver	INFO	geckodriver 0.19.1
+1520448412937	geckodriver	INFO	Listening on 127.0.0.1:58455
+1520448416078	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ltsuda\\AppData\\Local\\Temp\\rust_mozprofile.bNkHfQxjdCMx"
+1520448417080	Marionette	INFO	Enabled via --marionette
+[GFX1-]: Could not get a DXGI adapter
+[GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+[GFX1-]: Could not get a DXGI adapter
+[Child 4568, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4568, Ch[GFX1-]: Could not get a DXGI adapter
+1520448422153	Marionette	INFO	Listening on port 58463
+1520448422517	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520448422586	Marionette	DEBUG	Register listener.js for window 4294967297
+1520448422716	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1520448422985	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1520448422985	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1520448423572	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://pypi.python.org/pypi"
+1520448424020	Marionette	DEBUG	Received DOM event "pageshow" for "https://pypi.python.org/pypi"
+1520448424085	Marionette	DEBUG	Received DOM event "beforeunload" for "https://pypi.python.org/pypi"
+1520448426487	Marionette	DEBUG	Received DOM event "pagehide" for "https://pypi.python.org/pypi"
+1520448426488	Marionette	DEBUG	Received DOM event "unload" for "https://pypi.python.org/pypi"
+1520448426661	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://pypi.python.org/pypi?%3Aaction=search&term=behave&submit=search"
+1520448426711	Marionette	DEBUG	Received DOM event "pageshow" for "https://pypi.python.org/pypi?%3Aaction=search&term=behave&submit=search"
+1520448732985	geckodriver	INFO	geckodriver 0.19.1
+1520448732993	geckodriver	INFO	Listening on 127.0.0.1:58630
+1520448736114	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ltsuda\\AppData\\Local\\Temp\\rust_mozprofile.KpE0z3WNR9GB"
+1520448737159	Marionette	INFO	Enabled via --marionette
+[GFX1-]: Could not get a DXGI adapter
+[GFX1-]: Could not get a DXGI adapter
+[Child 4992, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4992, Chrome_ChildThread] WARNING[GFX1-]: Could not get a DXGI adapter
+1520448742054	Marionette	INFO	Listening on port 58638
+1520448742442	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520448742507	Marionette	DEBUG	Register listener.js for window 4294967297
+1520448742654	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1520448742977	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1520448742977	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1520448743562	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://pypi.python.org/pypi"
+1520448744101	Marionette	DEBUG	Received DOM event "pageshow" for "https://pypi.python.org/pypi"
+1520448744164	Marionette	DEBUG	Received DOM event "beforeunload" for "https://pypi.python.org/pypi"
+1520448745751	Marionette	DEBUG	Received DOM event "pagehide" for "https://pypi.python.org/pypi"
+1520448745752	Marionette	DEBUG	Received DOM event "unload" for "https://pypi.python.org/pypi"
+1520448745943	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://pypi.python.org/pypi?%3Aaction=search&term=behave&submit=search"
+1520448745983	Marionette	DEBUG	Received DOM event "pageshow" for "https://pypi.python.org/pypi?%3Aaction=search&term=behave&submit=search"
+1520448804130	geckodriver	INFO	geckodriver 0.19.1
+1520448804138	geckodriver	INFO	Listening on 127.0.0.1:58727
+1520448807252	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ltsuda\\AppData\\Local\\Temp\\rust_mozprofile.7Hdnvu2vyyBY"
+1520448808525	Marionette	INFO	Enabled via --marionette
+1520448813200	Marionette	INFO	Listening on port 58735
+1520448813515	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520448813579	Marionette	DEBUG	Register listener.js for window 4294967297
+1520448813776	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1520448814017	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1520448814017	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1520448814563	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://pypi.python.org/pypi"
+1520448815465	Marionette	DEBUG	Received DOM event "pageshow" for "https://pypi.python.org/pypi"
+1520448815531	Marionette	DEBUG	Received DOM event "beforeunload" for "https://pypi.python.org/pypi"
+1520448817826	Marionette	DEBUG	Received DOM event "pagehide" for "https://pypi.python.org/pypi"
+1520448817827	Marionette	DEBUG	Received DOM event "unload" for "https://pypi.python.org/pypi"
+1520448818030	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://pypi.python.org/pypi?%3Aaction=search&term=behave&submit=search"
+1520448818225	Marionette	DEBUG	Received DOM event "pageshow" for "https://pypi.python.org/pypi?%3Aaction=search&term=behave&submit=search"
+1520448874942	geckodriver	INFO	geckodriver 0.19.1
+1520448874950	geckodriver	INFO	Listening on 127.0.0.1:58818
+1520448878041	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ltsuda\\AppData\\Local\\Temp\\rust_mozprofile.GC1DzbbXl3zd"
+1520448879167	Marionette	INFO	Enabled via --marionette
+[GFX1-]: Could not get a DXGI adapter
+[GFX1-]: Could not get a DXGI adapter
+[Child 14128, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14128, Chro[GFX1-]: Could not get a DXGI adapter
+1520448883589	Marionette	INFO	Listening on port 58826
+1520448884115	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520448884181	Marionette	DEBUG	Register listener.js for window 4294967297
+1520448884278	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1520448884568	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1520448884568	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1520448885158	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://pypi.python.org/pypi"
+1520448885745	Marionette	DEBUG	Received DOM event "pageshow" for "https://pypi.python.org/pypi"
+1520448885809	Marionette	DEBUG	Received DOM event "beforeunload" for "https://pypi.python.org/pypi"
+1520448887608	Marionette	DEBUG	Received DOM event "pagehide" for "https://pypi.python.org/pypi"
+1520448887609	Marionette	DEBUG	Received DOM event "unload" for "https://pypi.python.org/pypi"
+1520448887804	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://pypi.python.org/pypi?%3Aaction=search&term=behave&submit=search"
+1520448887843	Marionette	DEBUG	Received DOM event "pageshow" for "https://pypi.python.org/pypi?%3Aaction=search&term=behave&submit=search"
+1520448968577	geckodriver	INFO	geckodriver 0.19.1
+1520448968586	geckodriver	INFO	Listening on 127.0.0.1:58916
+1520448971692	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ltsuda\\AppData\\Local\\Temp\\rust_mozprofile.OPuOe7yQIvjY"
+1520448972714	Marionette	INFO	Enabled via --marionette
+[GFX1-]: Could not get a DXGI adapter
+[GFX1-]: Could not get a DXGI adapter
+[Child 11168, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11168, Ch[GFX1-]: Could not get a DXGI adapter
+1520448977737	Marionette	INFO	Listening on port 58924
+1520448977964	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520448978034	Marionette	DEBUG	Register listener.js for window 4294967297
+1520448978166	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1520448978421	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1520448978421	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1520448979007	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://pypi.python.org/pypi"
+1520448979487	Marionette	DEBUG	Received DOM event "pageshow" for "https://pypi.python.org/pypi"
+1520448979551	Marionette	DEBUG	Received DOM event "beforeunload" for "https://pypi.python.org/pypi"
+1520448981519	Marionette	DEBUG	Received DOM event "pagehide" for "https://pypi.python.org/pypi"
+1520448981519	Marionette	DEBUG	Received DOM event "unload" for "https://pypi.python.org/pypi"
+1520448981720	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://pypi.python.org/pypi?%3Aaction=search&term=behave&submit=search"
+1520448981778	Marionette	DEBUG	Received DOM event "pageshow" for "https://pypi.python.org/pypi?%3Aaction=search&term=behave&submit=search"
+[Child 9636, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1520449235776	geckodriver	INFO	geckodriver 0.19.1
+1520449235784	geckodriver	INFO	Listening on 127.0.0.1:59245
+1520449238877	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ltsuda\\AppData\\Local\\Temp\\rust_mozprofile.t55ipVBHzNls"
+1520449239928	Marionette	INFO	Enabled via --marionette
+[Child 11356, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11356, Chrome_ChildThread] 1520449245453	Marionette	INFO	Listening on port 59259
+1520449246210	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520449246272	Marionette	DEBUG	Register listener.js for window 4294967297
+1520449246421	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1520449246652	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1520449246653	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1520449247209	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://pypi.python.org/pypi"
+1520449248024	Marionette	DEBUG	Received DOM event "pageshow" for "https://pypi.python.org/pypi"
+1520449248097	Marionette	DEBUG	Received DOM event "beforeunload" for "https://pypi.python.org/pypi"
+1520449250066	Marionette	DEBUG	Received DOM event "pagehide" for "https://pypi.python.org/pypi"
+1520449250066	Marionette	DEBUG	Received DOM event "unload" for "https://pypi.python.org/pypi"
+1520449250263	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://pypi.python.org/pypi?%3Aaction=search&term=behave&submit=search"
+1520449250296	Marionette	DEBUG	Received DOM event "pageshow" for "https://pypi.python.org/pypi?%3Aaction=search&term=behave&submit=search"
+1520449276118	geckodriver	INFO	geckodriver 0.19.1
+1520449276126	geckodriver	INFO	Listening on 127.0.0.1:59366
+1520449279228	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ltsuda\\AppData\\Local\\Temp\\rust_mozprofile.kuheFI1uo2tz"
+1520449280322	Marionette	INFO	Enabled via --marionette
+[Child 9036, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9036, Chr1520449285842	Marionette	INFO	Listening on port 59378
+1520449286571	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520449286634	Marionette	DEBUG	Register listener.js for window 4294967297
+1520449286873	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1520449286987	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1520449286987	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1520449287714	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://pypi.python.org/pypi"
+1520449289837	Marionette	DEBUG	Received DOM event "pageshow" for "https://pypi.python.org/pypi"
+1520449289908	Marionette	DEBUG	Received DOM event "beforeunload" for "https://pypi.python.org/pypi"
+1520449291374	Marionette	DEBUG	Received DOM event "pagehide" for "https://pypi.python.org/pypi"
+1520449291375	Marionette	DEBUG	Received DOM event "unload" for "https://pypi.python.org/pypi"
+1520449291546	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://pypi.python.org/pypi?%3Aaction=search&term=behave&submit=search"
+1520449291764	Marionette	DEBUG	Received DOM event "pageshow" for "https://pypi.python.org/pypi?%3Aaction=search&term=behave&submit=search"
+1520449345241	geckodriver	INFO	geckodriver 0.19.1
+1520449345250	geckodriver	INFO	Listening on 127.0.0.1:59548
+1520449348365	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ltsuda\\AppData\\Local\\Temp\\rust_mozprofile.4NXFJP5rTk0Q"
+1520449349440	Marionette	INFO	Enabled via --marionette
+[GFX1-]: Could not get a DXGI adapter
+[GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+[GFX1-]: Could not get a DXGI adapter
+[Child 2544, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2544, Chr[GFX1-]: Could not get a DXGI adapter
+1520449355260	Marionette	INFO	Listening on port 59560
+1520449355717	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520449355785	Marionette	DEBUG	Register listener.js for window 4294967297
+1520449355925	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1520449356219	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1520449356219	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1520449356794	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://pypi.python.org/pypi"
+1520449358549	Marionette	DEBUG	Received DOM event "pageshow" for "https://pypi.python.org/pypi"
+1520449358618	Marionette	DEBUG	Received DOM event "beforeunload" for "https://pypi.python.org/pypi"
+1520449360209	Marionette	DEBUG	Received DOM event "pagehide" for "https://pypi.python.org/pypi"
+1520449360210	Marionette	DEBUG	Received DOM event "unload" for "https://pypi.python.org/pypi"
+1520449360437	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://pypi.python.org/pypi?%3Aaction=search&term=behave&submit=search"
+1520449360455	Marionette	DEBUG	Received DOM event "pageshow" for "https://pypi.python.org/pypi?%3Aaction=search&term=behave&submit=search"
+1520449380736	geckodriver	INFO	geckodriver 0.19.1
+1520449380744	geckodriver	INFO	Listening on 127.0.0.1:59659
+1520449383850	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ltsuda\\AppData\\Local\\Temp\\rust_mozprofile.xRS6qB4P6cUb"
+1520449384948	Marionette	INFO	Enabled via --marionette
+[GFX1-]: Could not get a DXGI adapter
+[GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+[Parent 500, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GFX1-]: Could not get a DXGI adapter
+[Child 12256, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12256, [GFX1-]: Could not get a DXGI adapter
+1520449389377	Marionette	INFO	Listening on port 59671
+1520449389602	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520449389673	Marionette	DEBUG	Register listener.js for window 4294967297
+1520449389902	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1520449390033	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1520449390033	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1520449390729	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://pypi.python.org/pypi"
+1520449391546	Marionette	DEBUG	Received DOM event "pageshow" for "https://pypi.python.org/pypi"
+1520449391643	Marionette	DEBUG	Received DOM event "beforeunload" for "https://pypi.python.org/pypi"
+1520449393556	Marionette	DEBUG	Received DOM event "pagehide" for "https://pypi.python.org/pypi"
+1520449393557	Marionette	DEBUG	Received DOM event "unload" for "https://pypi.python.org/pypi"
+1520449393728	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://pypi.python.org/pypi?%3Aaction=search&term=behave&submit=search"
+1520449393977	Marionette	DEBUG	Received DOM event "pageshow" for "https://pypi.python.org/pypi?%3Aaction=search&term=behave&submit=search"
+1520449434265	geckodriver	INFO	geckodriver 0.19.1
+1520449434273	geckodriver	INFO	Listening on 127.0.0.1:59810
+1520449437394	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ltsuda\\AppData\\Local\\Temp\\rust_mozprofile.9gqkAUrkz5cc"
+1520449438486	Marionette	INFO	Enabled via --marionette
+[GFX1-]: Could not get a DXGI adapter
+[GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+[GFX1-]: Could not get a DXGI adapter
+[Child 10712, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10[GFX1-]: Could not get a DXGI adapter
+1520449443072	Marionette	INFO	Listening on port 59825
+1520449443438	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520449443504	Marionette	DEBUG	Register listener.js for window 4294967297
+1520449443695	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1520449443938	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1520449443939	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1520449444521	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://pypi.python.org/pypi"
+1520449445399	Marionette	DEBUG	Received DOM event "pageshow" for "https://pypi.python.org/pypi"
+1520449445462	Marionette	DEBUG	Received DOM event "beforeunload" for "https://pypi.python.org/pypi"
+1520449447441	Marionette	DEBUG	Received DOM event "pagehide" for "https://pypi.python.org/pypi"
+1520449447441	Marionette	DEBUG	Received DOM event "unload" for "https://pypi.python.org/pypi"
+1520449447608	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://pypi.python.org/pypi?%3Aaction=search&term=behave&submit=search"
+1520449447675	Marionette	DEBUG	Received DOM event "pageshow" for "https://pypi.python.org/pypi?%3Aaction=search&term=behave&submit=search"
+1520449488742	geckodriver	INFO	geckodriver 0.19.1
+1520449488750	geckodriver	INFO	Listening on 127.0.0.1:59991
+1520449491845	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ltsuda\\AppData\\Local\\Temp\\rust_mozprofile.EuLlPyD3fv3w"
+1520449492946	Marionette	INFO	Enabled via --marionette
+1520449498063	Marionette	INFO	Listening on port 60003
+1520449498084	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520449498149	Marionette	DEBUG	Register listener.js for window 4294967297
+1520449498428	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1520449498563	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1520449498564	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1520449499411	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://pypi.python.org/pypi"
+1520449499667	Marionette	DEBUG	Received DOM event "pageshow" for "https://pypi.python.org/pypi"
+1520449499730	Marionette	DEBUG	Received DOM event "beforeunload" for "https://pypi.python.org/pypi"
+1520449501271	Marionette	DEBUG	Received DOM event "pagehide" for "https://pypi.python.org/pypi"
+1520449501271	Marionette	DEBUG	Received DOM event "unload" for "https://pypi.python.org/pypi"
+1520449501487	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://pypi.python.org/pypi?%3Aaction=search&term=behave&submit=search"
+1520449501671	Marionette	DEBUG	Received DOM event "pageshow" for "https://pypi.python.org/pypi?%3Aaction=search&term=behave&submit=search"
+1520449672246	geckodriver	INFO	geckodriver 0.19.1
+1520449672254	geckodriver	INFO	Listening on 127.0.0.1:60273
+1520449675384	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ltsuda\\AppData\\Local\\Temp\\rust_mozprofile.EOUmKhznKWZV"
+1520449676758	Marionette	INFO	Enabled via --marionette
+[Child 13628, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13628, Chrome_ChildThread] WARNING: pipe error: 109: file 1520449681581	Marionette	INFO	Listening on port 60282
+1520449681977	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520449682062	Marionette	DEBUG	Register listener.js for window 4294967297
+1520449682230	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1520449682544	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1520449682544	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1520449683088	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://pypi.python.org/pypi"
+1520449683584	Marionette	DEBUG	Received DOM event "pageshow" for "https://pypi.python.org/pypi"
+1520449683647	Marionette	DEBUG	Received DOM event "beforeunload" for "https://pypi.python.org/pypi"
+1520449685597	Marionette	DEBUG	Received DOM event "pagehide" for "https://pypi.python.org/pypi"
+1520449685598	Marionette	DEBUG	Received DOM event "unload" for "https://pypi.python.org/pypi"
+1520449685806	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://pypi.python.org/pypi?%3Aaction=search&term=behave&submit=search"
+1520449685841	Marionette	DEBUG	Received DOM event "pageshow" for "https://pypi.python.org/pypi?%3Aaction=search&term=behave&submit=search"
+[GFX1-]: R[GFX1-]: Reeceive IPC close wiceive IPC closeth reason=AbnormalShutdown with reason=
+AbnormalShutdown
+1520449700771	geckodriver	INFO	geckodriver 0.19.1
+1520449700779	geckodriver	INFO	Listening on 127.0.0.1:60337
+1520449703880	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ltsuda\\AppData\\Local\\Temp\\rust_mozprofile.V6HzyNPWllWa"
+1520449705123	Marionette	INFO	Enabled via --marionette
+[Parent 12584, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1564, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1564, Ch1520449709910	Marionette	INFO	Listening on port 60345
+1520449710144	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520449710209	Marionette	DEBUG	Register listener.js for window 4294967297
+1520449710339	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1520449710481	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1520449710482	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1520449711106	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://pypi.python.org/pypi"
+1520449711628	Marionette	DEBUG	Received DOM event "pageshow" for "https://pypi.python.org/pypi"
+1520449711695	Marionette	DEBUG	Received DOM event "beforeunload" for "https://pypi.python.org/pypi"
+1520449713420	Marionette	DEBUG	Received DOM event "pagehide" for "https://pypi.python.org/pypi"
+1520449713421	Marionette	DEBUG	Received DOM event "unload" for "https://pypi.python.org/pypi"
+1520449713622	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://pypi.python.org/pypi?%3Aaction=search&term=behave&submit=search"
+1520449713657	Marionette	DEBUG	Received DOM event "pageshow" for "https://pypi.python.org/pypi?%3Aaction=search&term=behave&submit=search"
+1520449871429	geckodriver	INFO	geckodriver 0.19.1
+1520449871437	geckodriver	INFO	Listening on 127.0.0.1:60468
+1520449874557	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ltsuda\\AppData\\Local\\Temp\\rust_mozprofile.ac0tt02CMTmc"
+1520449875619	Marionette	INFO	Enabled via --marionette
+[GFX1-]: Could not get a DXGI adapter
+[GFX1-]: Could not get a DXGI adapter
+[Child 2232, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2232, Chro[GFX1-]: Could not get a DXGI adapter
+1520449880689	Marionette	INFO	Listening on port 60477
+1520449881174	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520449881243	Marionette	DEBUG	Register listener.js for window 4294967297
+1520449881329	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1520449881668	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1520449881668	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1520449882257	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://pypi.python.org/pypi"
+1520449882746	Marionette	DEBUG	Received DOM event "pageshow" for "https://pypi.python.org/pypi"
+1520449919015	geckodriver	INFO	geckodriver 0.19.1
+1520449919024	geckodriver	INFO	Listening on 127.0.0.1:60540
+1520449922204	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ltsuda\\AppData\\Local\\Temp\\rust_mozprofile.w32DXbmS39lm"
+1520449923655	Marionette	INFO	Enabled via --marionette
+[GFX1-]: Could not get a DXGI adapter
+[GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+[GFX1-]: Could not get a DXGI adapter
+[Child 13728, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13728[GFX1-]: Could not get a DXGI adapter
+1520449928161	Marionette	INFO	Listening on port 60553
+1520449928477	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520449928540	Marionette	DEBUG	Register listener.js for window 4294967297
+1520449928634	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1520449928757	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1520449928757	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1520449929328	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://pypi.python.org/pypi"
+1520449929834	Marionette	DEBUG	Received DOM event "pageshow" for "https://pypi.python.org/pypi"
+1520450016010	geckodriver	INFO	geckodriver 0.19.1
+1520450016018	geckodriver	INFO	Listening on 127.0.0.1:60658
+1520450019128	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ltsuda\\AppData\\Local\\Temp\\rust_mozprofile.EgKdHCXZ7Ink"
+1520450020345	Marionette	INFO	Enabled via --marionette
+[GFX1-]: Could not get a DXGI adapter
+[GFX1-]: Could not get a DXGI adapter
+[Child 13612, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13612, Chr[GFX1-]: Could not get a DXGI adapter
+1520450025081	Marionette	INFO	Listening on port 60667
+1520450025581	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520450025645	Marionette	DEBUG	Register listener.js for window 4294967297
+1520450025737	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1520450026011	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1520450026012	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1520450026543	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://pypi.python.org/pypi"
+1520450027121	Marionette	DEBUG	Received DOM event "pageshow" for "https://pypi.python.org/pypi"
+1520450055760	geckodriver	INFO	geckodriver 0.19.1
+1520450055768	geckodriver	INFO	Listening on 127.0.0.1:60722
+1520450058879	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ltsuda\\AppData\\Local\\Temp\\rust_mozprofile.6PjMi5gzB4ia"
+1520450059844	Marionette	INFO	Enabled via --marionette
+[Child 2276, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2276, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1520450064661	Marionette	INFO	Listening on port 60731
+1520450065117	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520450065183	Marionette	DEBUG	Register listener.js for window 4294967297
+1520450065430	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1520450065557	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1520450065557	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1520450066123	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://pypi.python.org/pypi"
+1520450066577	Marionette	DEBUG	Received DOM event "pageshow" for "https://pypi.python.org/pypi"
+1520450066643	Marionette	DEBUG	Received DOM event "beforeunload" for "https://pypi.python.org/pypi"
+1520450068621	Marionette	DEBUG	Received DOM event "pagehide" for "https://pypi.python.org/pypi"
+1520450068621	Marionette	DEBUG	Received DOM event "unload" for "https://pypi.python.org/pypi"
+1520450068794	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://pypi.python.org/pypi?%3Aaction=search&term=behave&submit=search"
+1520450068852	Marionette	DEBUG	Received DOM event "pageshow" for "https://pypi.python.org/pypi?%3Aaction=search&term=behave&submit=search"
+1520450411938	geckodriver	INFO	geckodriver 0.19.1
+1520450411946	geckodriver	INFO	Listening on 127.0.0.1:61376
+1520450415061	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ltsuda\\AppData\\Local\\Temp\\rust_mozprofile.16wB7boi0SfC"
+1520450416097	Marionette	INFO	Enabled via --marionette
+[GFX1-]: Could not get a DXGI adapter
+[GFX1-]: Could not get a DXGI adapter
+[Child 9856, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9856, Ch[GFX1-]: Could not get a DXGI adapter
+1520450421373	Marionette	INFO	Listening on port 61389
+1520450422394	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520450422456	Marionette	DEBUG	Register listener.js for window 4294967297
+1520450422633	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1520450422859	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1520450422859	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1520450423456	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://pypi.python.org/pypi"
+1520450423974	Marionette	DEBUG	Received DOM event "pageshow" for "https://pypi.python.org/pypi"
+1520450424036	Marionette	DEBUG	Received DOM event "beforeunload" for "https://pypi.python.org/pypi"
+1520450426126	Marionette	DEBUG	Received DOM event "pagehide" for "https://pypi.python.org/pypi"
+1520450426127	Marionette	DEBUG	Received DOM event "unload" for "https://pypi.python.org/pypi"
+1520450426336	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://pypi.python.org/pypi?%3Aaction=search&term=behave&submit=search"
+1520450426653	Marionette	DEBUG	Received DOM event "pageshow" for "https://pypi.python.org/pypi?%3Aaction=search&term=behave&submit=search"
+1520506798924	geckodriver	INFO	geckodriver 0.19.1
+1520506798931	geckodriver	INFO	Listening on 127.0.0.1:62501
+1520506802061	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ltsuda\\AppData\\Local\\Temp\\rust_mozprofile.1ZAay9Q53ZTy"
+1520506803220	Marionette	INFO	Enabled via --marionette
+1520506808603	Marionette	INFO	Listening on port 62511
+1520506809802	Marionette	WARN	TLS certificate errors will be ignored for this session
