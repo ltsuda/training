@@ -12,29 +12,7 @@ ${POST_LINK}        xpath=.//*[@id="Blog1"]/div[1]/article/div/div/h3/a
 ${POST_TITLE}       xpath=.//*[@id="Blog1"]/div/article/div[1]/div/h3
 
 *** Keywords ***
-#GIVEN
-Que esteja na tela HOME do blog robotizando testes
-    Acessar blog robotiandotestes
-
-Que esteja na tela de resultado da pesquisa pela postagem "${TITLE_POST}"
-    Verificar resultado da pesquisa                ${TITLE_POST}
-
-#WHEN
-Pesquisar pela palavra "${TERM}"
-    Pesquisar a postagem pela palavra "${TERM}"
-
-Clicar no link da postagem
-    Clicar no post encontrado
-
-#THEN
-A postagem "${TITLE_POST}" deve ser listada no resultado da pesquisa
-    Verificar resultado da pesquisa                ${TITLE_POST}
-
-A tela da postagem "${TITLE_POST}" deve ser mostrada
-    Verificar tela da postagem                     ${TITLE_POST}
-
-#STEPS
-Acessar blog robotiandotestes
+Acessar blog robotizandotestes
     Open Browser                                   ${URL}                ${BROWSER}
     Wait Until Element Is Visible                  ${HEADER}
     Title Should Be                                Robotizando Testes
