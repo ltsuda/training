@@ -1,0 +1,202 @@
+Sub RefreshAllCells()
+''==============================================================================
+''Purpose: To refresh the current table in a Word document with new data from
+'' the corresponding range in an Excel document.
+''The code uses bookmarks in the Word document and corresponding named ranges in
+'' Excel. The Excel data is brought in as pictures. This has the advantage that any
+'' formatting in the Excel document is retained, and the dimensions don't change
+'' significantly.
+'' Also, bookmarks are simpler to create and maintain because a picture is only a
+'' single character in a Word document.
+''Requires: A table in the Excel file to line up the bookmarks and named ranges
+''Created: 23 Oct 2008 by Denis Wright
+''==============================================================================
+    Dim objExcel As Object, _
+        objWbk As Object, _
+        objDoc As Document
+    Dim sBookmark As String, _
+        sWbkName As String
+    Dim sRange As String, _
+        sSheet As String, _
+        strPrompt As String, _
+        strTitle As String
+    Dim BMRange As Range
+    Dim bmk As Bookmark
+    Dim i As Integer, _
+        J As Integer, _
+        k As Integer, _
+        iRet As Integer, _
+         bmkCount As Integer
+    Dim vNames()
+    Dim vBookmarks()
+    Dim dlgOpen As FileDialog
+    Dim bnExcel As Boolean
+
+    
+    On Error GoTo Err_Handle
+    
+    strPrompt = "Por favor, selecione um arquivo Excel. Tente novamente..."
+ 
+    strTitle = "Selecione arquivo"
+    
+    Set dlgOpen = Application.FileDialog( _
+        FileDialogType:=msoFileDialogOpen)
+    bnExcel = False
+    Do Until bnExcel = True
+        With dlgOpen
+            .AllowMultiSelect = False
+            .Show
+            If .SelectedItems.Count > 0 Then
+                sWbkName = .SelectedItems(1)
+            End If
+        End With
+        If InStr(1, sWbkName, ".xls") > 0 Then
+            'proceed
+            bnExcel = True
+        Else
+            'Display MessageBox
+            iRet = MsgBox(strPrompt, vbRetryCancel, strTitle)
+             If iRet = vbRetry Then
+                 End If
+             If iRet = vbCancel Then
+                 GoTo Canc_Handle
+             End If
+        End If
+    Loop
+    
+    Set objDoc = ActiveDocument
+    Application.ScreenUpdating = False
+
+    'check to see that the Excel file is open. If not, open the file
+    'also grab the wbk name to enable switching
+    Set objExcel = GetObject(, "Excel.Application")
+    
+    For i = 1 To objExcel.Workbooks.Count
+        If objExcel.Workbooks(i).Name = sWbkName Then
+            Set objWbk = objExcel.Workbooks(i)
+            Exit For
+        End If
+    Next
+    
+    If objWbk Is Nothing Then
+        Set objWbk = objExcel.Workbooks.Open(sWbkName)
+    End If
+    
+    'minimize the Excel window
+    objExcel.WindowState = -4140 'minimized
+    
+    'switch to Excel, find range name that corresponds to the bookmark
+    objExcel.Visible = False
+    objWbk.Activate
+    vNames = objWbk.Worksheets("auto").Range("Bookmark").Value
+    
+    
+    'loop through the bookmarks
+    bmkCount = ActiveDocument.Bookmarks.Count
+    ReDim vBookmarks(bmkCount - 1)
+    J = LBound(vBookmarks)
+    For Each bmk In ActiveDocument.Bookmarks
+        vBookmarks(J) = bmk.Name
+        J = J + 1
+    Next bmk
+
+    
+    For J = LBound(vBookmarks) To UBound(vBookmarks)
+        'go to the bookmark
+        Selection.GoTo What:=wdGoToBookmark, Name:=vBookmarks(J)
+        Set BMRange = ActiveDocument.Bookmarks(vBookmarks(J)).Range
+            
+        For k = 1 To UBound(vNames)
+            If vNames(k, 1) = vBookmarks(J) Then
+                sSheet = vNames(k, 2)
+                sRange = vNames(k, 3)
+                Exit For
+            End If
+
+        Next k
+            
+        'copy data from the range as a picture
+        objWbk.Worksheets(sSheet).Range(sRange).Copy
+        objDoc.Activate
+        BMRange.Select
+        On Error Resume Next
+        ActiveDocument.Bookmarks(sBookmark).Delete
+        
+        
+        'Paste table with format
+        If Left(sRange, 6) = "table_" Then
+            
+            'Selection.PasteAndFormat (wdPasteDefault)
+            Selection.PasteExcelTable False, True, False
+            
+        ElseIf Left(sRange, 5) = "book_" Then
+        'Paste cell as Text with Word format
+            Selection.PasteAndFormat (wdFormatPlainText)
+        End If
+        On Error GoTo 0
+        
+    Next J
+    
+    objExcel.Visible = True
+
+    Call deleteBookmarks
+    
+Err_Exit:
+    
+    'clean up
+    Set BMRange = Nothing
+    Set objWbk = Nothing
+    objExcel.Quit
+    Set objExcel = Nothing
+    Set objDoc = Nothing
+    
+    MsgBox "Finalizou com erros"
+             
+    Exit Sub
+
+Canc_Handle:
+    
+    Application.ScreenUpdating = True
+    MsgBox "Operação Cancelada"
+    Exit Sub
+    
+
+Err_Handle:
+    If Err.Number = 429 Then 'excel not running; launch Excel
+        Set objExcel = CreateObject("Excel.Application")
+        Resume Next
+    ElseIf Err.Number = 9 Then
+        MsgBox "Erro: o marcador não foi encontrado! Verifique os Indicadores no Word e os Nomes no Excel"
+        Resume Err_Exit
+    ElseIf Err.Number <> 0 Then
+        MsgBox "Error " & Err.Number & ": " & Err.Description
+        Resume Err_Exit
+    End If
+    
+End Sub
+Sub deleteBookmarks()
+
+    Dim bkm As Bookmark
+        
+    For Each bkm In ActiveDocument.Bookmarks
+    bkm.Delete
+    Next bkm
+
+    Call deleteButton
+    
+End Sub
+Sub deleteButton()
+    
+    Dim IShp As InlineShape
+       
+    For Each IShp In ActiveDocument.InlineShapes
+        IShp.OLEFormat.Activate
+        If IShp.OLEFormat.Object.Name = "PreencherRelatorio" Then
+           IShp.Delete
+           Exit For
+        End If
+    Next
+    Application.ScreenUpdating = True
+    MsgBox "The document has been updated"
+    End
+End Sub
