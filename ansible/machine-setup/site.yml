@@ -1,4 +1,4 @@
 ---
 - hosts: newuser
   roles:
-    - dvelopment
+    - role: development
