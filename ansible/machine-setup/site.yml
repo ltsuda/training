@@ -1,0 +1,4 @@
+---
+- hosts: newuser
+  roles:
+    - dvelopment
