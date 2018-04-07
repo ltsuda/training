@@ -1,4 +1,6 @@
+#!./wrapper/playbookwrapper
 ---
-- hosts: newuser
+- hosts: newusers
+  become_method: sudo
   roles:
-    - role: development
+    - role: robot_test

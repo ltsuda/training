@@ -1,2 +1,2 @@
-[newuser]
-localhost
+[newusers]
+localhost   ansible_connection=local
