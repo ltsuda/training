@@ -1,6 +1,6 @@
-#!./wrapper/playbookwrapper
+#!./wrapper/playbookwrapper.sh
 ---
 - hosts: newusers
   become_method: sudo
   roles:
-    - role: robot_test
+    - { role: robot, become: yes }

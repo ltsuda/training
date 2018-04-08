@@ -1,0 +1,24 @@
+---
+
+- name: Install apps package (apt, yum, etc..)
+  package: name={{ item }} state=present
+  with_items:
+    - git
+    - python-pip
+  when: ansible_distribution == 'Debian' or ansible_distribution == 'Ubuntu' or ansible_distribution == 'Fedora'
+
+- name: Install apps package (apt, yum, etc..) CentOS
+  package: name={{ item }} state=present
+  with_items:
+    - git
+    - epel-release
+    - python-pip
+  when: ansible_distribution == 'CentOS'
+
+- name: Install pip packages 
+  become: no # Ubuntu gives an error with become:yes if already in sudoer context
+  pip: name={{ item }} state=present
+  with_items:
+    - robotframework
+    - robotframework-sshlibrary
+    - robotframework-selenium2library
