@@ -5,7 +5,8 @@
   with_items:
     - git
     - python-pip
-  when: ansible_distribution == 'Debian' or ansible_distribution == 'Ubuntu' or ansible_distribution == 'Fedora'
+    - build-essential
+  when: ansible_distribution == 'Debian' or ansible_distribution == 'Ubuntu'
 
 - name: Install apps package (apt, yum, etc..) CentOS
   package: name={{ item }} state=present
@@ -13,7 +14,7 @@
     - git
     - epel-release
     - python-pip
-  when: ansible_distribution == 'CentOS'
+  when: ansible_distribution == 'CentOS' or ansible_distribution == 'Fedora'
 
 - name: Install pip packages 
   become: no # Ubuntu gives an error with become:yes if already in sudoer context

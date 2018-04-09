@@ -10,14 +10,7 @@
 
 ` git clone https://github.com/ltsuda/training.git `
 
-` cd /training/ansible/machine-setup `
-- Centos:
-
 ` sudo ./site.yml -i inventory -K `
-
-- Ubuntu / Fedora:
-
-` ./site.yml -i inventory -K `
 
 **NOTE:**
 
