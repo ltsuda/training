@@ -26,4 +26,4 @@
   with_items:
     - robotframework
     - robotframework-sshlibrary
-    - robotframework-selenium2library
+    - robotframework-seleniumlibrary
