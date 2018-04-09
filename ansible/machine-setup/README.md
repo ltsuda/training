@@ -10,7 +10,9 @@
 
 ` git clone https://github.com/ltsuda/training.git `
 
-` sudo ./site.yml -i inventory -K `
+Make sure site.yml and /wrapper/playbookwrapper.sh has Execution permission '-x'
+
+` ./site.yml -i inventory -K `
 
 **NOTE:**
 
