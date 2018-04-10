@@ -1,9 +1,4 @@
 ---
-- name: Get user directory
-  become: no # if yes as configured as default for this role 'robot', $HOME will be '/home/root'
-  shell: echo $HOME
-  register: user_directory
-
 - name: Install apps package (apt, yum, etc..) Ubuntu
   package: name={{ item }} state=present
   with_items:
@@ -33,13 +28,10 @@
     - libselinux-python  # needed to download geckodriver on Fedora
   when: ansible_distribution == 'Fedora'
   
-
 - name: Install pip packages 
-  become: no # Ubuntu gives an error with become:yes if already in sudoer context
   pip: 
     name={{ item }} 
     state=present
-    extra_args=--user
   with_items:
     - robotframework
     - robotframework-sshlibrary
@@ -47,9 +39,13 @@
     - robotframework-sikulilibrary
     - robotframework-seleniumlibrary
     - robotframework-ftplibrary
+    - robotframework-snmplibrary
+    - robotframework-selenium2library
+    - Selenium2LibraryExtension
     - pyyaml
     - nclib
-    - gecko  
+    - gecko
+    - selenium
 
 - name: Verify if gecko driver already exists
   stat: path="/tmp/geckodriver-v{{ gecko_version }}-linux64.tar.gz"
