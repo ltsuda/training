@@ -4,24 +4,35 @@
   shell: echo $HOME
   register: user_directory
 
-- name: Install apps package (apt, yum, etc..)
+- name: Install apps package (apt, yum, etc..) Ubuntu
   package: name={{ item }} state=present
   with_items:
     - git
     - python-pip
     - build-essential
     - firefox
-  when: ansible_distribution == 'Debian' or ansible_distribution == 'Ubuntu'
+  when: ansible_distribution == 'Ubuntu'
 
 - name: Install apps package (apt, yum, etc..) CentOS
   package: name={{ item }} state=present
   with_items:
     - git
-    - epel-release
+    - epel-release # needed to install python-pip on CentOS
     - python-pip
     - "@Development tools"
     - firefox
-  when: ansible_distribution == 'CentOS' or ansible_distribution == 'Fedora'
+  when: ansible_distribution == 'CentOS'
+  
+- name: Install apps package (apt, yum, etc..) Fedora
+  package: name={{ item }} state=present
+  with_items:
+    - git
+    - python-pip
+    - "@Development tools"
+    - firefox
+    - libselinux-python  # needed to download geckodriver on Fedora
+  when: ansible_distribution == 'Fedora'
+  
 
 - name: Install pip packages 
   become: no # Ubuntu gives an error with become:yes if already in sudoer context
