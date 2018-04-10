@@ -1,5 +1,0 @@
----
-- name: Get user directory
-  # become: no # if yes as configured as default for this role 'robot', $HOME will be '/home/root'
-  shell: echo $HOME
-  register: user_directory
